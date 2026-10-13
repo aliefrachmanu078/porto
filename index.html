@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Game Designer & 2D/3D Game Artist</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar-wrapper">
+    <nav class="navbar container">
+      <a href="#home" class="logo">
+        <span class="logo-mark">G</span>
+        <span class="logo-text">Portfolio</span>
+      </a>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link nav-btn">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. HOME (HERO) -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="pulse-dot"></span> Portofolio Digital Game Design
+          </div>
+          <h1 class="hero-title">
+            Halo, saya <span class="highlight">[Nama Anda]</span><br>
+            Game Designer & Game Artist
+          </h1>
+          <p class="hero-tagline">
+            "Menghubungkan rancangan gameplay, aset visual, dan logika teknis untuk menciptakan pengalaman bermain game yang solid."
+          </p>
+          <p class="hero-desc">
+            Lulusan/mahasiswa D4 Teknologi Game dengan minat pada riset mekanik dan pengembangan game. Mengombinasikan kemampuan Game Design, pembuatan aset visual (2D karakter & 3D environment), serta fondasi programming untuk mewujudkan ide game menjadi prototipe yang dapat dimainkan.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Lihat Project</a>
+            <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+          </div>
+        </div>
+
+        <div class="hero-card-side">
+          <div class="profile-card">
+            <div class="card-avatar-wrapper">
+              <div class="card-avatar-placeholder">
+                <span>🎨 🎮</span>
+              </div>
+            </div>
+            <div class="profile-meta">
+              <h3>[Nama Lengkap Anda]</h3>
+              <p class="role-badge">Game Designer</p>
+              <div class="meta-tags">
+                <span class="chip">2D Art</span>
+                <span class="chip">3D Environment</span>
+                <span class="chip">Game Research</span>
+              </div>
+            </div>
+            <div class="profile-status">
+              <span class="status-indicator"></span> Siap untuk peluang kerja & kolaborasi
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT ME -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Tentang Saya</span>
+          <h2 class="section-title">Latar Belakang & Minat Riset</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-about">
+            <p>
+              Saya memiliki latar belakang pendidikan di <strong>D4 Teknologi Game</strong> dengan fokus utama pada <strong>Game Design</strong> serta pembuatan aset game 2D dan 3D. Memiliki ketertarikan mendalam terhadap riset mekanisme game dan tren perkembangannya, saya berfokus merancang alur permainan, interaksi pemain, dan membangun prototipe yang konsisten baik secara mekanik maupun visual.
+            </p>
+            <p>
+              Dalam proses perancangan dan produksi, saya memanfaatkan <strong>Blender</strong> untuk 3D environment & level mapping, <strong>IbisPaintX</strong> untuk 2D character art, serta didukung fondasi programming seperti <strong>Python, Java, dan PHP</strong> dengan penyimpanan <strong>MySQL</strong> dan <strong>Git</strong> untuk manajemen versi. Saya senang menyelesaikan masalah terkait penerjemahan ide/konsep abstrak menjadi rancangan game konkret—memastikan transisi antara estetika visual, tata letak map/lingkungan, dan logika alur game berjalan selaras.
+            </p>
+          </div>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="icon-bubble">🧩</div>
+              <div>
+                <h4>Desain Mekanik & Prototipe</h4>
+                <p>Merancang logika gameplay dan menguji alur permainan secara modular.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="icon-bubble">🗺️</div>
+              <div>
+                <h4>Spatial & Level Mapping</h4>
+                <p>Penyusunan peta 3D dan blocking environment untuk memandu navigasi pemain.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="icon-bubble">🖌️</div>
+              <div>
+                <h4>Konsistensi Visual 2D/3D</h4>
+                <p>Penyelarasan karakter dan dunia permainan dengan kebutuhan teknis engine.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SKILLS -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Keahlian</span>
+          <h2 class="section-title">Kemampuan & Alat Kerja</h2>
+          <p class="section-subtitle">Teknologi dan tools yang saya gunakan dalam pengembangan game dan aset visual.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="cat-icon pastel-lavender">💻</div>
+              <h3>Programming Languages</h3>
+            </div>
+            <p class="cat-desc">Digunakan untuk logika dasar, scripting mekanik, dan otomasi.</p>
+            <div class="skill-tags">
+              <span class="skill-chip">Python</span>
+              <span class="skill-chip">Java</span>
+              <span class="skill-chip">PHP</span>
+            </div>
+          </div>
+
+          <!-- Database -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="cat-icon pastel-peach">🗄️</div>
+              <h3>Database</h3>
+            </div>
+            <p class="cat-desc">Penyimpanan data sistem, atribut pemain, dan integrasi backend.</p>
+            <div class="skill-tags">
+              <span class="skill-chip">MySQL</span>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="cat-icon pastel-mint">🛠️</div>
+              <h3>Tools & Software</h3>
+            </div>
+            <p class="cat-desc">Aset 3D/2D, perancangan map, serta kontrol versi kode dan file.</p>
+            <div class="skill-tags">
+              <span class="skill-chip">Blender (3D Environment & Map)</span>
+              <span class="skill-chip">IbisPaintX (2D Character & Art)</span>
+              <span class="skill-chip">Git (Version Control)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROJECTS -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Portofolio</span>
+          <h2 class="section-title">Project Pilihan (Game Design Focus)</h2>
+          <p class="section-subtitle">Studi kasus dan hasil kerja nyata pada workshop produksi dan kompetisi game.</p>
+        </div>
+
+        <div class="projects-list">
+          <!-- Project 1: Prioritas Utama -->
+          <article class="project-card featured">
+            <div class="project-header">
+              <div class="project-priority-badge">Prioritas Utama • Level & Environment Design</div>
+              <h3 class="project-title">3D Prototype Game Environment & Map Design</h3>
+              <p class="project-context">Workshop Produksi Prototype Game</p>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-grid">
+                <div><strong>Role:</strong> 3D Environment & Map Designer</div>
+                <div><strong>Teknologi:</strong> Blender</div>
+                <div><strong>Hasil:</strong> [Belum diisi]</div>
+                <div><strong>GitHub / Demo:</strong> [Belum diisi]</div>
+              </div>
+
+              <div class="detail-block">
+                <h4>Overview</h4>
+                <p>Proyek perancangan prototipe game yang dikembangkan dalam rangka workshop produksi game untuk menguji konsep tata letak dan lingkungan 3D.</p>
+              </div>
+
+              <div class="problem-solution-grid">
+                <div class="detail-subcard">
+                  <h4>Masalah (Problem)</h4>
+                  <p>Kebutuhan untuk memvalidasi alur navigasi pemain dan eksplorasi visual dalam ruang 3D pada tahap awal pembuatan prototipe.</p>
+                </div>
+                <div class="detail-subcard">
+                  <h4>Solusi (Solution)</h4>
+                  <p>Merancang dan membangun map game serta aset 3D environment menggunakan Blender yang proporsional dan mendukung orientasi pemain.</p>
+                </div>
+              </div>
+
+              <div class="detail-block">
+                <h4>Fitur & Lingkup Kerja</h4>
+                <ul>
+                  <li>Layout Map Game untuk navigasi area.</li>
+                  <li>Aset 3D Environment modular/tematik.</li>
+                </ul>
+              </div>
+
+              <div class="detail-block">
+                <h4>Development Process</h4>
+                <p>Riset referensi visual, pembuatan layout dasar map (blocking), permodelan aset 3D environment di Blender, dan penyesuaian skala objek untuk prototipe.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Game Jam -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-priority-badge">Game Jam Project</div>
+              <h3 class="project-title">Game Project - Game Jam</h3>
+              <p class="project-context">Perlombaan Game Jam</p>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-grid">
+                <div><strong>Role:</strong> 2D Artist (Character & Environment)</div>
+                <div><strong>Teknologi:</strong> IbisPaintX</div>
+                <div><strong>Hasil:</strong> [Belum diisi]</div>
+                <div><strong>GitHub / Demo:</strong> [Belum diisi]</div>
+              </div>
+
+              <div class="detail-block">
+                <h4>Overview</h4>
+                <p>Game yang dikembangkan secara kolaboratif dalam ajang kompetisi Game Jam dengan batas waktu pengerjaan tertentu.</p>
+              </div>
+
+              <div class="problem-solution-grid">
+                <div class="detail-subcard">
+                  <h4>Masalah</h4>
+                  <p>Kebutuhan memproduksi aset visual 2D (karakter & environment) yang sesuai dengan tema kompetisi dalam waktu terbatas.</p>
+                </div>
+                <div class="detail-subcard">
+                  <h4>Solusi</h4>
+                  <p>Menggunakan alur kerja cepat di IbisPaintX untuk menghasilkan konsep karakter yang mudah dibaca serta environment yang mendukung tema permainan.</p>
+                </div>
+              </div>
+
+              <div class="detail-block">
+                <h4>Fitur & Lingkup Kerja</h4>
+                <ul>
+                  <li>Desain 2D Karakter Utama.</li>
+                  <li>Background & Asset 2D Environment.</li>
+                </ul>
+              </div>
+
+              <div class="detail-block">
+                <h4>Development Process</h4>
+                <p>Brainstorming ide dan penyesuaian tema kompetisi, sketsa konsep karakter dan environment di IbisPaintX, pewarnaan, dan ekspor aset ke engine game.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Space Jam -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-priority-badge">Competitor Project</div>
+              <h3 class="project-title">Game Project - Space Jam</h3>
+              <p class="project-context">Perlombaan Space Jam</p>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-grid">
+                <div><strong>Role:</strong> 2D Character Artist</div>
+                <div><strong>Teknologi:</strong> IbisPaintX</div>
+                <div><strong>Hasil:</strong> [Belum diisi]</div>
+                <div><strong>GitHub / Demo:</strong> [Belum diisi]</div>
+              </div>
+
+              <div class="detail-block">
+                <h4>Overview</h4>
+                <p>Proyek game yang dibuat untuk keikutsertaan dalam perlombaan game bertema "Space Jam".</p>
+              </div>
+
+              <div class="problem-solution-grid">
+                <div class="detail-subcard">
+                  <h4>Masalah</h4>
+                  <p>Mendesain karakter game 2D yang memiliki identitas visual kuat dan selaras dengan tema luar angkasa/fantasi kompetisi.</p>
+                </div>
+                <div class="detail-subcard">
+                  <h4>Solusi</h4>
+                  <p>Menggambar dan merender 2D karakter game dengan IbisPaintX dengan fokus pada siluet dan keterbacaan karakter saat dimainkan.</p>
+                </div>
+              </div>
+
+              <div class="detail-block">
+                <h4>Fitur & Lingkup Kerja</h4>
+                <ul>
+                  <li>Desain dan aset 2D Karakter Game.</li>
+                </ul>
+              </div>
+
+              <div class="detail-block">
+                <h4>Development Process</h4>
+                <p>Eksplorasi konsep karakter, sketsa digital di IbisPaintX, finalisasi lineart dan coloring, serta penyesuaian format untuk kebutuhan integrasi game.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Workshop Produksi Game -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-priority-badge">Academic Workshop</div>
+              <h3 class="project-title">2D Game Asset Production</h3>
+              <p class="project-context">Workshop Produksi Game</p>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-grid">
+                <div><strong>Role:</strong> 2D Game Artist (Character & Environment)</div>
+                <div><strong>Teknologi:</strong> IbisPaintX</div>
+                <div><strong>Hasil:</strong> [Belum diisi]</div>
+                <div><strong>GitHub / Demo:</strong> [Belum diisi]</div>
+              </div>
+
+              <div class="detail-block">
+                <h4>Overview</h4>
+                <p>Proyek pengembangan game yang ditujukan untuk praktik langsung siklus produksi game pada kegiatan workshop akademik.</p>
+              </div>
+
+              <div class="problem-solution-grid">
+                <div class="detail-subcard">
+                  <h4>Masalah</h4>
+                  <p>Membangun kesatuan gaya visual antara karakter dan latar belakang dunia game 2D.</p>
+                </div>
+                <div class="detail-subcard">
+                  <h4>Solusi</h4>
+                  <p>Memproduksi paket aset 2D menyeluruh mencakup karakter dan environment secara konsisten menggunakan IbisPaintX.</p>
+                </div>
+              </div>
+
+              <div class="detail-block">
+                <h4>Fitur & Lingkup Kerja</h4>
+                <ul>
+                  <li>Sprite / Ilustrasi Karakter 2D.</li>
+                  <li>Tile / Background Environment 2D.</li>
+                </ul>
+              </div>
+
+              <div class="detail-block">
+                <h4>Development Process</h4>
+                <p>Penentuan palet warna dan mood board, pembuatan sketsa aset, digital painting di IbisPaintX, dan pengujian keserasian visual antara karakter dengan background.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. EXPERIENCE -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Pengalaman</span>
+          <h2 class="section-title">Produksi Game & Kompetisi</h2>
+          <p class="section-subtitle">Rekam jejak partisipasi dalam workshop produksi serta kompetisi pengembangan game.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">Workshop Produksi</span>
+              <h3>3D Environment & Map Designer</h3>
+              <p class="timeline-location">Workshop Produksi Prototype Game</p>
+              <p class="timeline-desc">Bertanggung jawab pada perancangan prototipe tata letak peta (map game) dan aset lingkungan 3D menggunakan Blender.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">Kompetisi Game</span>
+              <h3>2D Game Artist</h3>
+              <p class="timeline-location">Game Jam Competition</p>
+              <p class="timeline-desc">Merancang konsep visual cepat untuk karakter 2D dan aset environment dalam batas waktu kompetisi menggunakan IbisPaintX.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">Kompetisi Game</span>
+              <h3>2D Character Artist</h3>
+              <p class="timeline-location">Space Jam Competition</p>
+              <p class="timeline-desc">Mendesain karakter 2D berbasis tema antariksa, memastikan kejelasan visual dan keselarasan estetika permainan.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">Workshop Akademik</span>
+              <h3>2D Game Artist (Character & Environment)</h3>
+              <p class="timeline-location">Workshop Produksi Game</p>
+              <p class="timeline-desc">Membuat paket aset visual 2D lengkap meliputi karakter dan environment terpadu untuk alur produksi game.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. EDUCATION -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Pendidikan</span>
+          <h2 class="section-title">Latar Belakang Akademik</h2>
+        </div>
+
+        <div class="education-card">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-details">
+            <span class="edu-degree">Diploma IV (D4)</span>
+            <h3 class="edu-major">Teknologi Game</h3>
+            <p class="edu-institution">[Nama Institusi Belum diisi]</p>
+            <div class="edu-focus-area">
+              <strong>Fokus Pembelajaran:</strong>
+              <p>Perancangan Game Design, riset mekanisme permainan, pemrograman game dasar (Python, Java, PHP), manajemen basis data (MySQL), serta produksi aset visual 2D dan 3D (IbisPaintX & Blender).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-text">
+            <span class="section-badge">Kontak</span>
+            <h2 class="section-title">Mari Terhubung & Berkolaborasi</h2>
+            <p>
+              Terbuka untuk peluang kerja sebagai Game Designer, 2D/3D Game Artist, maupun proyek kolaborasi riset game. Jangan ragu untuk menghubungi saya.
+            </p>
+            
+            <div class="contact-links-list">
+              <div class="contact-row">
+                <span class="contact-label">Email:</span>
+                <span class="contact-val">[Belum diisi - Contoh: nama@domain.com]</span>
+              </div>
+              <div class="contact-row">
+                <span class="contact-label">GitHub:</span>
+                <span class="contact-val">[Belum diisi - github.com/username]</span>
+              </div>
+              <div class="contact-row">
+                <span class="contact-label">LinkedIn:</span>
+                <span class="contact-val">[Belum diisi]</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <h3>Kirim Pesan</h3>
+            <div class="form-group">
+              <label for="name">Nama Lengkap</label>
+              <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Alamat Email</label>
+              <input type="email" id="email" name="email" placeholder="email@anda.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan / Diskusi Proyek</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tuliskan pesan atau penawaran peluang kerja..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+            <p id="formFeedback" class="form-feedback"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 [Nama Anda]. Portofolio Game Designer & Game Artist.</p>
+      <p class="footer-sub">Dirancang dengan palet warna pastel yang tenang dan modern.</p>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
